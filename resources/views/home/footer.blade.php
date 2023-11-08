@@ -1,57 +1,102 @@
-<footer id="fh5co-footer" role="contentinfo">
+<footer class="site-footer">
+		<div class="container">
 			<div class="row">
-				<div class="col-md-3 fh5co-widget">
-					<h4>About Neat</h4>
-					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-				</div>
-				<div class="col-md-3 col-md-push-1">
-					<h4>Latest Posts</h4>
-					<ul class="fh5co-footer-links">
-						<li><a href="#">Amazing Templates</a></li>
-						<li><a href="#">100+ Free Download Templates</a></li>
-						<li><a href="#">Neat is now available</a></li>
-						<li><a href="#">Download 1000+ icons</a></li>
-						<li><a href="#">Big Deal for this month of March, Join Us here</a></li>
-					</ul>
-				</div>
-
-				<div class="col-md-3 col-md-push-1">
-					<h4>Links</h4>
-					<ul class="fh5co-footer-links">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Work</a></li>
-						<li><a href="#">Services</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">About us</a></li>
-					</ul>
-				</div>
-
-				<div class="col-md-3">
-					<h4>Contact Information</h4>
-					<ul class="fh5co-footer-links">
-						<li>198 West 21th Street, <br> Suite 721 New York NY 10016</li>
-						<li><a href="tel://1234567920">+ 1235 2355 98</a></li>
-						<li><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
-						<li><a href="">gettemplates.co</a></li>
-					</ul>
-				</div>
-
-			</div>
-
-			<div class="row copyright">
-				<div class="col-md-12 text-center">
-					<p>
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> Available at <a href="http://themewagon.com/" target="_blank">Themewagon</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
-					</p>
-					<p>
-						<ul class="fh5co-social-icons">
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-linkedin"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
+				<div class="col-lg-4">
+					<div class="widget">
+						<h3 class="mb-4">About</h3>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					</div> <!-- /.widget -->
+					<div class="widget">
+						<h3>Social</h3>
+						<ul class="list-unstyled social">
+							<li><a href="home/#"><span class="icon-instagram"></span></a></li>
+							<li><a href="home/#"><span class="icon-twitter"></span></a></li>
+							<li><a href="home/#"><span class="icon-facebook"></span></a></li>
+							<li><a href="home/#"><span class="icon-linkedin"></span></a></li>
+							<li><a href="home/#"><span class="icon-pinterest"></span></a></li>
+							<li><a href="home/#"><span class="icon-dribbble"></span></a></li>
 						</ul>
-					</p>
-				</div>
-			</div>
-		</footer>
+					</div> <!-- /.widget -->
+				</div> <!-- /.col-lg-4 -->
+				<div class="col-lg-4 ps-lg-5">
+					<div class="widget">
+						<h3 class="mb-4">Company</h3>
+						<ul class="list-unstyled float-start links">
+							<li><a href="home/#">About us</a></li>
+							<li><a href="home/#">Services</a></li>
+							<li><a href="home/#">Vision</a></li>
+							<li><a href="home/#">Mission</a></li>
+							<li><a href="home/#">Terms</a></li>
+							<li><a href="home/#">Privacy</a></li>
+						</ul>
+						<ul class="list-unstyled float-start links">
+							<li><a href="home/#">Partners</a></li>
+							<li><a href="home/#">Business</a></li>
+							<li><a href="home/#">Careers</a></li>
+							<li><a href="home/#">Blog</a></li>
+							<li><a href="home/#">FAQ</a></li>
+							<li><a href="home/#">Creative</a></li>
+						</ul>
+					</div> <!-- /.widget -->
+				</div> <!-- /.col-lg-4 -->
+				<div class="col-lg-4">
+					<div class="widget">
+						<h3 class="mb-4">Recent Post Entry</h3>
+						<div class="post-entry-footer">
+							<ul>
+								<li>
+									<a href="home/">
+										<img src="home/images/img_1_sq.jpg" alt="Image placeholder" class="me-4 rounded">
+										<div class="text">
+											<h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
+											<div class="post-meta">
+												<span class="mr-2">March 15, 2018 </span>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="home/">
+										<img src="home/images/img_2_sq.jpg" alt="Image placeholder" class="me-4 rounded">
+										<div class="text">
+											<h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
+											<div class="post-meta">
+												<span class="mr-2">March 15, 2018 </span>
+											</div>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="home/">
+										<img src="home/images/img_3_sq.jpg" alt="Image placeholder" class="me-4 rounded">
+										<div class="text">
+											<h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
+											<div class="post-meta">
+												<span class="mr-2">March 15, 2018 </span>
+											</div>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+
+
+					</div> <!-- /.widget -->
+				</div> <!-- /.col-lg-4 -->
+			</div> <!-- /.row -->
+
+			<div class="row mt-5">
+				<div class="col-12 text-center">
+          <!-- 
+              **==========
+              NOTE: 
+              Please don't remove this copyright link unless you buy the license here https://untree.co/license/  
+              **==========
+            -->
+
+            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="home/https://untree.co">Untree.co</a>  Distributed by <a href="home/https://themewagon.com">ThemeWagon</a> <!-- License information: https://untree.co/license/ -->
+            </p>
+          </div>
+        </div>
+      </div> <!-- /.container -->
+    </footer> <!-- /.site-footer -->
