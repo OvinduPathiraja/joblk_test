@@ -59,7 +59,7 @@
             <x-input-error for="name" class="mt-2" />
         </div>
 
-        <!-- Email -->
+         <!-- Email -->
         <div class="col-span-6 sm:col-span-4">
             <x-label for="email" value="{{ __('Email') }}" />
             <x-input id="email" type="email" class="mt-1 block w-full" wire:model="state.email" required autocomplete="username" />
@@ -81,6 +81,57 @@
                 @endif
             @endif
         </div>
+
+        <div class="col-span-6 sm:col-span-4">
+            <x-label for="phone" value="{{ __('Phone') }}" />
+            <x-input id="phone" type="number" class="mt-1 block w-full" wire:model="state.phone" required autocomplete="phone" />
+            <x-input-error for="phone" class="mt-2" />
+        </div>
+
+        <div class="col-span-6 sm:col-span-4">
+            <x-label for="address" value="{{ __('Address') }}" />
+            <x-input id="address" type="text" class="mt-1 block w-full" wire:model="state.address" required autocomplete="address" />
+            <x-input-error for="address" class="mt-2" />
+        </div>
+
+         <div class="col-span-6 sm:col-span-4">
+            <x-label for="dob" value="{{ __('Date Of Birth') }}" />
+            <x-input id="dob" type="date" class="mt-1 block w-full" wire:model="state.dob" required autocomplete="dob" />
+            <x-input-error for="dob" class="mt-2" />
+        </div>
+
+
+        <div class="col-span-6 sm:col-span-4">
+            <x-label for="gender" value="{{ __('Gender') }}" />
+            <div class="mt-2" style="display: flex; gap: 2px; align-items:flex-start;">
+                <div class="radio" style="flex: 1;">
+                    <label>
+                        <input type="radio" name="gender" value="male" wire:model="state.gender">
+                        {{ __('Male') }}
+                    </label>
+                </div>
+                <div class="radio" style="flex: 1;">
+                    <label>
+                        <input type="radio" name="gender" value="female" wire:model="state.gender">
+                        {{ __('Female') }}
+                    </label>
+                </div>
+                <div class="radio" style="flex: 1;">
+                    <label>
+                        <input type="radio" name="gender" value="other" wire:model="state.gender">
+                        {{ __('Other') }}
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-span-6 sm:col-span-4">
+            <x-label for="About" value="{{ __('About') }}" />
+            <x-input id="About" type="text" class="mt-1 block w-full" wire:model="state.About" required autocomplete="About" />
+            <x-input-error for="About" class="mt-2" />
+        </div>
+
+
     </x-slot>
 
     <x-slot name="actions">
